@@ -3,6 +3,7 @@ This project focuses on dealing with different sampling rates (video rhythm prob
 
 # How to train
 1. Download the preprocessed data for the Breakfast and extract the feature under the same folder. Name the feature folader as "deep_frame"
+The Downloadable Link can be found here: https://drive.google.com/open?id=1RFuglmNPl3DqEKp6xtd25xkssFIHyhMU
 2. Modify the path and create the train and test list by running the "create_list.py" file.
 3. Train the model by running the "IndRNN_BF_baseline.py" for IndRNN model, and "Skip_IndRNN_BF.py" for SkipIndRNN model.
 
