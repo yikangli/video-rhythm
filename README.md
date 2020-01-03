@@ -8,3 +8,5 @@ This project focuses on dealing with different sampling rates (video rhythm prob
 
 # Miscellaneous
 The "extract_deep_features.py" file is provided for extracting the deep features of BreakFast dataset with pretrained ResNet152 model. The BreakFast datasaet should be downloaded first and stored in frame form. http://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/
+
+The file "App_train_TSN_list.txt", "App_test_TSN_list.txt", "Label_train_TSN_list.txt", and "Label_test_TSN_list.txt" are the example train and test list that can be created by the "create_list.py" file. The text file will save the path for training and testing data.
