@@ -7,4 +7,4 @@ This project focuses on dealing with different sampling rates (video rhythm prob
 3. Train the model by running the "IndRNN_BF_baseline.py" for IndRNN model, and "Skip_IndRNN_BF.py" for SkipIndRNN model.
 
 # Miscellaneous
-We also provide the "extract_deep_features.py" file for extracting the deep features of BreakFast dataset with pretrained ResNet152 model. The BreakFast datasaet should be downloaded first and stored in frame form. http://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/
+The "extract_deep_features.py" file is provided for extracting the deep features of BreakFast dataset with pretrained ResNet152 model. The BreakFast datasaet should be downloaded first and stored in frame form. http://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/
