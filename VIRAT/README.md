@@ -1,7 +1,7 @@
 # How to train
-1. Download the preprocessed data for the VIRAT-2.0 6 events and extract the feature under the same folder. Name the feature folader as "deep_frame"
-The Downloadable Link can be found here: https://drive.google.com/file/d/1LdHVFvnPL-EqHySDru5M2VaO9ajcPPaE/view?usp=sharing
-2. Modify the path and create the sample list by running the "create_list.py" file.
+1. Download the preprocessed data for the VIRAT-2.0 6 events and extract the feature under the same folder.
+The preprocessd features, which are extracted by a pretrained VGG16 model, are provided. The Downloadable Link can be found here: https://drive.google.com/file/d/1LdHVFvnPL-EqHySDru5M2VaO9ajcPPaE/view?usp=sharing
+2. Modify the path and create the list which contains the full path of each file (The example list is provided as "App_list.txt").
 3. Train the model by running the "IndRNN_VIRAT.py" for IndRNN model, and "Skip_IndRNN_VIRAT.py" for SkipIndRNN model.
 
 # Miscellaneous
